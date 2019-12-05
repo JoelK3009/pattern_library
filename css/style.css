@@ -1,0 +1,64 @@
+/*-------CSS Reset-------*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size: 100%;
+    line-height: 1em;
+}
+
+/*-------Main Styling-------*/
+
+body{
+    width: 80%;
+    max-width: 670px;
+    margin: auto;
+    background: #fafafa;
+    color: black;
+    font-family: 'Arvo', serif;
+    font-style: normal;
+}
+
+header, section {    
+    max-width: auto;
+    margin: auto;}
+
+header {
+    margin: 2em auto;
+}
+
+hr{
+    margin: 2em 0;
+    height: 1px;
+    background-color: #333;
+    color: #333;
+    border: 0 none
+}
+/*-------Typography-------*/
+
+h1, h2, h3, h4 {
+    font-weight: normal;
+    margin: 1em 0em;}
+
+p{
+    font-family: 'Barlow', sans-serif;
+    font-weight: normal;
+    line-height: inherit;
+    margin: 0.25em;
+}
+
+h1{
+    font-size: 2.827em;
+}
+
+h2{
+    font-size: 1.999em;
+}
+
+h3{
+    font-size: 1.414em;
+}
+
+h4{
+    font-size: 1.2em;
+}
